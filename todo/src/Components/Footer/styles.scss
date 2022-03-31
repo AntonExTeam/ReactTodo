@@ -1,0 +1,38 @@
+.footer {
+  display: block;
+  margin: auto;
+  width: 500px;
+
+  .todo-count {
+    margin-top: 20px;
+    color: gray;
+    cursor: pointer;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  .filters {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .div-filters {
+    display: inline-block;
+    margin-left: 60px;
+  }
+
+  .clear-completed {
+    margin-left: 60px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+    cursor: pointer;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}

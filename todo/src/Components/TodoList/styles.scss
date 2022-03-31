@@ -1,0 +1,10 @@
+.todo-list {
+  display: block;
+  padding: 0;
+  max-height: 300px;
+  overflow: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}

@@ -1,0 +1,48 @@
+.view {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  padding: 0.5rem;
+  gap: 16px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+
+  .checkbox {
+    flex-shrink: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    text-align: center;
+  }
+
+  .check {
+    margin-bottom: 2px;
+  }
+
+  .text {
+    margin: 0;
+    word-break: break-word;
+
+    &.completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+  }
+
+  .destroy {
+    margin-left: auto;
+    color: grey;
+
+    &:hover {
+      cursor: pointer;
+      color: black;
+    }
+  }
+}
+
+
+
+
+
