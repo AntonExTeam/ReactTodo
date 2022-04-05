@@ -8,7 +8,6 @@ import {
   SET_VISIBILITY_FILTER
 } from '../constants/actionTypes';
 
-
  const initialState = {
    todos: [],
    visibilityFilter: SHOW_ALL,
